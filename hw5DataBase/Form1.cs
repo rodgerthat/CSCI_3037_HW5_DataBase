@@ -136,7 +136,7 @@ namespace hw5DataBase
         {
 
             // TODO : left off here, populating dataGridView with datatable
-            dataGridView1.DataSource = 
+            // dataGridView1.DataSource = 
         }
 
         // take note of SqlBulkCopyOptions.KeepIdentity , you may or may not want to use this for your situation.  
