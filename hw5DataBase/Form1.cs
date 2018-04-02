@@ -61,8 +61,8 @@ namespace hw5DataBase
                 "(NAME = studentGrade, " +
                 "FILENAME = 'studentGrade.mdf', " +
                 "SIZE = 2MB, MAXSIZE = 10MB, FILEGROWTH = 10%) " +
-                "LOG ON (NAME = studentGrade_Log, " +
-                "FILENAME = 'studentGrade_Log.ldf', " +
+                "LOG ON (NAME = studentGrade_log, " +
+                "FILENAME = 'studentGrade_log.ldf', " +
                 "SIZE = 1MB, " +
                 "MAXSIZE = 5MB, " +
                 "FILEGROWTH = 10%)";
@@ -136,7 +136,7 @@ namespace hw5DataBase
         {
 
             // TODO : left off here, populating dataGridView with datatable
-            // dataGridView1.DataSource = 
+            dataGridView1.DataSource = dataTable;
         }
 
         // take note of SqlBulkCopyOptions.KeepIdentity , you may or may not want to use this for your situation.  
@@ -175,6 +175,7 @@ namespace hw5DataBase
                        "Initial Catalog=AdventureWorks;";
             }
 
+            /**
             void DataBaseToDataTable()
             {
 
@@ -184,6 +185,7 @@ namespace hw5DataBase
             {
 
             }
+            **/
 
         }
 

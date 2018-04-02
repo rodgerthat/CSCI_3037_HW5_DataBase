@@ -3,3 +3,11 @@ C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase
 C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\obj\Debug\hw5DataBase.Properties.Resources.resources
 C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\obj\Debug\hw5DataBase.csproj.GenerateResource.Cache
 C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\obj\Debug\hw5DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\hw5DataBase.exe.config
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\hw5DataBase.exe
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\hw5DataBase.pdb
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\obj\Debug\hw5DataBase.exe
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\obj\Debug\hw5DataBase.pdb
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\csvDBData.txt
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\studentGrade.mdf
+C:\Users\Joel\MTSU\CSCI_3037\HWs\HW5_DataBase\CSCI_3037_HW5_DataBase\hw5DataBase\bin\Debug\studentGrade_log.ldf

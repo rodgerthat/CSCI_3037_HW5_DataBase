@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace hw5DataBase.Properties
-{
-
-
+namespace hw5DataBase.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,60 @@ namespace hw5DataBase.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("hw5DataBase.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Student Name,Class,Earned Hours,GPA,Course,CourseNumber,FinalGrade,TotalCSCICreditHrs,CSCI GPA
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI1170,1170,B,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI2170,2170,B+,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI3038,3038,A,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI3080,3080,B,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI3110,3110,A,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI3130,3130,A,36,2.8144
+        ///&quot;Gomez, Christine&quot;,SR,124,3.0673,CSCI3210,3210,A,36,2.8 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string csvDBData {
+            get {
+                return ResourceManager.GetString("csvDBData", resourceCulture);
             }
         }
     }
